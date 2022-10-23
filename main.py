@@ -31,9 +31,9 @@ if __name__ == '__main__':
     init_Water=time()
     init_Eyes=time()
     init_Health=time()
-    Water=1*60
-    Eyes=1*60
-    Health=1*60
+    Water=30*60
+    Eyes=45*60
+    Health=30*60
     while True:
         # Water
         if time()-init_Water > Water:
